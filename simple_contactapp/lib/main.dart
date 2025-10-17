@@ -89,11 +89,8 @@ class ContactTile extends StatelessWidget {
         style: const TextStyle(fontWeight: FontWeight.w600),
       ),
       subtitle: Text(contact.phone),
-      // For beginners we won't actually launch the dialer (no extra packages)
       trailing: const Icon(Icons.phone),
       onTap: () {
-        // You can add real calling later with url_launcher (optional).
-        // For now, tapping just shows a simple SnackBar so you know it works.
         ScaffoldMessenger.of(
           context,
         ).showSnackBar(SnackBar(content: Text('ডায়াল করতে: ${contact.phone}')));
