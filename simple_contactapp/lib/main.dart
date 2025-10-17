@@ -74,7 +74,6 @@ class ContactTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Pick the first character of the Bangla name for avatar
     final initial = contact.name.isNotEmpty
         ? contact.name.characters.first
         : '?';
