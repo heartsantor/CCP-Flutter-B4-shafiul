@@ -22,7 +22,7 @@ const demoHotels = <Hotel>[
   Hotel(
     title: 'AYANA Resort',
     location: 'Bali, Indonesia',
-    imgUrl: 'https://images.unsplash.com/photo-1566079463181-2526ab7fbf03?q=80&w=1200&auto=format&fit=crop',
+    imgUrl: 'https://i.ibb.co.com/wr39Xc9m/1.png',
     priceRange: '\$200 - \$500 USD',
     rating: 4.5,
     badge: '10% OFF',
@@ -31,7 +31,7 @@ const demoHotels = <Hotel>[
   Hotel(
     title: 'COMO Uma Resort',
     location: 'Bali, Indonesia',
-    imgUrl: 'https://images.unsplash.com/photo-1501117716987-c8e0040ba69d?q=80&w=1200&auto=format&fit=crop',
+    imgUrl: 'https://i.ibb.co.com/DHxn6zb8/2.png',
     priceRange: '\$300 - \$500 USD',
     rating: 4.2,
     badge: '10% OFF',

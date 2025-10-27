@@ -92,14 +92,14 @@ class _HomeBody extends StatelessWidget {
             children: const [
               Expanded(
                 child: BusinessCard(
-                  imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop',
+                  imageUrl: 'https://i.ibb.co.com/wr39Xc9m/1.png',
                   tags: ['Fast Wi‑Fi', 'AC Conference rooms'],
                 ),
               ),
               SizedBox(width: 12),
               Expanded(
                 child: BusinessCard(
-                  imageUrl: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1200&auto=format&fit=crop',
+                  imageUrl: 'https://i.ibb.co.com/DHxn6zb8/2.png',
                   tags: ['In-room work stations'],
                 ),
               ),
